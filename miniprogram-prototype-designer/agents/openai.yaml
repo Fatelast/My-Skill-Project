@@ -1,0 +1,4 @@
+interface:
+  display_name: "小程序原型设计师"
+  short_description: "将需求文字转成可交付的 HTML 交互原型及实现规则"
+  default_prompt: "Use $miniprogram-prototype-designer to turn this requirements text into a clickable HTML prototype, page structure, interaction flow, and implementation-oriented frontend guidance."
