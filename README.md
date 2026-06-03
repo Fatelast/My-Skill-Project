@@ -17,6 +17,7 @@
 |---|---|---|
 | `miniprogram-prototype-designer` | 将需求文本整理成小程序 / H5 / 移动端原型、页面结构、流程和开发导向输出 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path miniprogram-prototype-designer` |
 | `icon-generator` | 根据自然语言生成 SVG 图标，以及 React / Vue 图标组件 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path icon-generator` |
+| `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path find-skills` |
 
 ## 目录结构
 
@@ -36,6 +37,8 @@ My-Skill-Project/
       openai.yaml
     scripts/
       icon_transform.py
+  find-skills/
+    SKILL.md
 ```
 
 ## 使用方式
