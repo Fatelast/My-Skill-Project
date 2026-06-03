@@ -1,0 +1,5 @@
+interface:
+  display_name: "Icon Generator"
+  short_description: "Generate SVG icons plus React or Vue components."
+  icon: "sparkles"
+  color: "#6366F1"
