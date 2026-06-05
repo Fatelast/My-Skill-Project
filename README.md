@@ -19,6 +19,7 @@
 | `icon-generator` | 根据自然语言生成 SVG 图标，以及 React / Vue 图标组件 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path icon-generator` |
 | `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path find-skills` |
 | `codegraph-guide` | 指导 Codex 配置和使用 CodeGraph MCP 进行代码索引、调用链追踪和影响分析 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path codegraph-guide` |
+| `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path project-context-manager` |
 
 ## 目录结构
 
@@ -41,6 +42,10 @@ My-Skill-Project/
   find-skills/
     SKILL.md
   codegraph-guide/
+    SKILL.md
+    agents/
+      openai.yaml
+  project-context-manager/
     SKILL.md
     agents/
       openai.yaml
