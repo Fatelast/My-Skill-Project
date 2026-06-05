@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Context Manager"
+  short_description: "Manage cross-session project context docs."
+  default_prompt: "Use $project-context-manager to create or update AGENTS.md and docs/codex context files for a clean Codex handoff."
